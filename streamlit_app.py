@@ -7,7 +7,7 @@ model = joblib.load('mymodel.joblib')
 vectorizer = joblib.load('vectorizer.joblib')
 
 # Define the app layout
-st.title('Sentiment Analysis App')
+st.title('Sentiment Analysis App for Amazon Reviews :)')
 st.write('Enter some text to predict its sentiment:')
 user_input = st.text_input('Text Input')
 
