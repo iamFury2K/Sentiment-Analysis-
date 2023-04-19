@@ -1,2 +1,2 @@
-# Sentiment-Analysis-
-This repo contains a ML model which can distinguish positive and negative reviews for Amazon products
+# EmotionDetectorDeploy
+The Stream_lit.py file deploys the ML model
