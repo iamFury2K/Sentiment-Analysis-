@@ -25,7 +25,7 @@ def predict_review():
     sentiment = model.predict(user_input_vec)[0]
     result  = ''
     # Display the output
-    if sentiment == 1:
+    if sentiment >= 0.5:
         result = 'Postive'
     else:
         result = 'Negative'
